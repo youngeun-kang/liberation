@@ -1,6 +1,7 @@
 import pickle
 #Binary로 변경하는 패키지
 import re
+import os
 
 def writePickle(obj, pickle_file):
     with open(pickle_file, 'wb') as output:

@@ -22,6 +22,7 @@ def open_chrome_driver(path = None):
     '''open chrome driver with options'''
 
     path = 'chromedriver'
+    #path = 'c:\\bin\\chromedriver.exe'
     chrome_options = Options()
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--no-sandbox')
